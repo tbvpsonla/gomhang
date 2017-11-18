@@ -1,0 +1,46 @@
+{
+    "report_name": "Danh Sách Đơn Hàng",
+    "data":
+    {
+        "number": {
+            "name": "Stt",
+            "align": "center",
+            "width": 30
+        },
+    	  "name": {
+            "name": "Tên Khách Hàng",
+            "align": "top",
+            "width": 150
+        },
+        "create_time": {
+            "name": "Thời Gian Nhận",
+            "align": "center",
+            "width": 150
+        },
+        "phone": {
+            "name": "Phone Number",
+            "align": "center",
+            "width": 150
+        },
+        "address": {
+            "name": "Địa Chỉ",
+            "align": "center",
+            "width": 150
+        },
+        "calling_time": {
+            "name": "Thời Gian Gọi",
+            "align": "center",
+            "width": 150
+        },
+        "Status": {
+            "name": "Tình Trạng",
+            "align": "center",
+            "width": 150
+        },
+        "Note": {
+            "name": "Note",
+            "align": "center",
+            "width": 150
+        }
+    }
+}

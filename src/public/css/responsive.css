@@ -1,0 +1,166 @@
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+@media only screen and (min-width: 960px) and (max-width: 1000px) {
+	.zerogrid{width:100%;}
+	.top-inside{ width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.welcome-inside{ width:86%; height:auto; margin-left:1%; margin-right:1%; float:left; text-align:left; padding-right:7%;padding-top:7%;}
+	.form-title h2.styleFontface { font-size:46px; line-height:54px;}
+	.body-title-inside{ width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.content-inside{ width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.featured{ width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.content-right { padding-top:40px;}
+	.services { width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.testimonial { width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+	.footer-main-box{ width:98%; height:auto; margin-left:1%; margin-right:1%; float:left;}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+	.zerogrid{width:100%;}
+	.top-inside { width:98%; text-align:center; margin-left:1%; margin-right:1%;}
+
+ .welcome-inside { width:86%; text-align:left; padding-left:7%; padding-right:7%; padding-top:0%;}
+ .form-box { width:48%; margin-top: 0px;}
+  .form-title { width:86%; padding-left:7%; padding-right:7%;}
+ .form-inside { width:86%; padding-left:7%; padding-right:7%;}
+ .form-middle-box { width:86%; padding-left:7%; padding-right:7%;}
+ .form-title { text-align:center;}
+ .form-title h2.styleFontface { font-size:46px; line-height:54px;}
+ .welcome-left { width:50%; text-align:left; padding-top:120px;}
+
+ .body-title-inside { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+
+ .services { width:96%; height:auto; padding-left:2%; padding-right:2%; float:left;} .services ul {margin:0px; padding:0px; list-style-type:none;}
+		.services ul li { width:42%; float:left; margin-right:4%; margin-left:4%; display:block;  margin-bottom:36px; text-align:center;}
+	.services ul li:last-child { width:42%; text-align:center; margin-left:29%; margin-right:29%; margin-bottom:0px;}
+
+	 .featured { width:96%; height:auto; padding-left:2%; padding-right:2%; float:left;} .featured ul {margin:0px; padding:0px; list-style-type:none;}
+		.featured ul li { width:42%; float:left; margin-right:4%; margin-left:4%; display:block;  margin-bottom:36px; text-align:center;}
+	.featured ul li:last-child { width:42%; text-align:center; margin-left:29%; margin-right:29%; margin-bottom:0px;}
+
+.content-title { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+	.content-inside { width:90%; margin-left:5%; margin-right:5%; float:left; text-align:center; padding-bottom:40px;}
+	 .content-left{ width:100%; text-align:center;}
+	 	.content-right{ width:100%; text-align:center;  padding-top:24px;}  .content-right p { text-align:center;}
+
+			 .content-middle-left{ width:100%; text-align:center; padding-top:24px; } .content-middle-left p { text-align:center;}
+	 	.content-middle-right{ width:100%; text-align:center;}
+
+ .testimonial { width:98%; height:auto; padding-left:1%; padding-right:1%; float:left;}
+
+				 		.button2 { width:28%; margin-left:36%; margin-right:36%;} .button2:hover {width:28%; margin-left:36%; margin-right:36%;}
+						.button3 { width:28%; margin-left:36%; margin-right:36%;} .button3:hover { width:28%; margin-left:36%; margin-right:36%;}
+
+	.footer-main-box { width:96%; padding-left:2%; padding-right:2%; text-align:center;}
+	h5.styleFontface { font-size:20px; line-height:34px;}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	.zerogrid{width:100%;}
+	#content .top { height:auto;}
+	.top-inside { width:90%; height:auto; text-align:center; margin-left:5%; margin-right:5%;}
+	.top-left {width:100%; height: auto; text-align:center;} .top-right{ width:100%; text-align:center; padding-top:20px;}
+
+	#welcome { height:auto; width:100%; float:left; text-align:center;}
+ .welcome-inside { width:86%; text-align:center; padding-left:7%; padding-right:7%; padding-top:0px;}
+ .welcome-left { width:100%; text-align:center; padding-top:0px; padding-left:0%;}
+ .welcome-left-box { width:100%; text-align:center;} .welcome-left-box p { text-align:center;}
+
+ .form-box { width:80%; height:auto; margin-top:0px; margin-left:10%; margin-right:10%;}
+ .form-title { width:90%; padding-left:5%; padding-right:5%;}
+ .form-inside { width:90%; padding-left:5%; padding-right:5%;}
+ .form-middle-box { width:90%; padding-left:5%; padding-right:5%;}
+ .form-title h2.styleFontface { font-size:44px; line-height:48px;}
+
+ .body-title-inside { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+
+ .services-box { width:100%; padding-bottom:30px;}
+.services { width:70%; margin-left:15%; margin-right:15%;} .services ul li { width:100%; text-align:center; margin-bottom:34px;}
+
+ .featured-box { width:100%; padding-bottom:30px;}
+.featured { width:90%; margin-left:5%; margin-right:5%;} .featured ul li { width:100%; text-align:center; margin-bottom:34px;}
+
+.content-title { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+	.content-inside { width:90%; margin-left:5%; margin-right:5%; float:left; text-align:center; padding-bottom:40px;}
+	 .content-left{ width:100%; text-align:center;}
+	 	.content-right{ width:100%; text-align:center;  padding-top:24px;}  .content-right p { text-align:center;}
+
+			 .content-middle-left{ width:100%; text-align:center; padding-top:24px; } .content-middle-left p { text-align:center;}
+	 	.content-middle-right{ width:100%; text-align:center;}
+
+		.testimonial-box { padding-bottom:30px;}
+		.testimonial { width:80%; margin-left:10%; margin-right:10%;} .testimonial ul li { width:90%; text-align:center; margin-bottom:44px; padding-left:5%; padding-right:5%;}
+		.testimonial ul li p { text-align:center;}
+
+		 		.button2 { width:36%; margin-left:32%; margin-right:32%;} .button2:hover { width:36%; margin-left:32%; margin-right:32%;}
+				.button3 { width:36%; margin-left:32%; margin-right:32%;} .button3:hover { width:36%; margin-left:32%; margin-right:32%;}
+
+	.footer-main-box { width:90%; padding-left:5%; padding-right:5%; text-align:center;}
+	h2.styleFontface { font-size:32px; line-height:34px;}
+	h3.styleFontface { font-size:32px; line-height:34px;}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px)  {
+	/* -------------------------------------------- */
+	/* ------------------Grid System--------------- */
+	.zerogrid{width:100%; }
+	#content .top { height:auto;}
+	.top-inside { width:90%; height:auto; text-align:center; margin-left:5%; margin-right:5%;}
+	.top-left {width:100%; height: auto; text-align:center;}
+	.top-right{ width:100%; text-align:center; padding-top:20px;}
+	#welcome { height:auto; width:100%; float:left; text-align:center;}
+ .welcome-inside { width:86%; text-align:center; padding-left:7%; padding-right:7%; padding-top:0px;}
+ .welcome-left { width:100%; text-align:center; padding-top:0px; padding-left:0%;}
+ .welcome-left-box { width:100%; text-align:center;} .welcome-left-box p { text-align:center;}
+
+ .form-box { width:100%; height:auto; margin-top:0px;}
+ .form-title { width:90%; padding-left:5%; padding-right:5%;}
+ .form-inside { width:90%; padding-left:5%; padding-right:5%;}
+ .form-middle-box { width:90%; padding-left:5%; padding-right:5%;}
+ .form-title h2.styleFontface { font-size:35px; line-height:45px;}
+
+ .body-title-inside { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+
+ .services-box { width:100%; padding-bottom:30px;}
+.services { width:90%; margin-left:5%; margin-right:5%;} .services ul li { width:100%; text-align:center; margin-bottom:34px;}
+
+ .featured-box { width:100%; padding-bottom:30px;}
+.featured { width:90%; margin-left:5%; margin-right:5%;} .featured ul li { width:100%; text-align:center; margin-bottom:34px;}
+
+.content-title { width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+	.content-inside { width:90%; margin-left:5%; margin-right:5%; float:left; text-align:center; padding-bottom:40px;}
+	 .content-left{ width:100%; text-align:center;}
+	 	.content-right{ width:100%; text-align:center;  padding-top:24px;}  .content-right p { text-align:center;}
+
+			 .content-middle-left{ width:100%; text-align:center; padding-top:24px; } .content-middle-left p { text-align:center;}
+	 	.content-middle-right{ width:100%; text-align:center;}
+
+		.testimonial-box { padding-bottom:30px;}
+		.testimonial { width:90%; margin-left:5%; margin-right:5%;} .testimonial ul li { width:90%; text-align:center; margin-bottom:44px; padding-left:5%; padding-right:5%;}
+		.testimonial ul li p { text-align:center;}
+
+
+		.button2 { width:64%; margin-left:18%; margin-right:18%;} .button2:hover { width:64%; margin-left:18%; margin-right:18%;}
+		.button3 { width:64%; margin-left:18%; margin-right:18%;} .button3:hover {width:64%; margin-left:18%; margin-right:18%;}
+
+
+	.footer-main-box { width:90%; padding-left:5%; padding-right:5%; text-align:center;}
+		h1.styleFontface { font-size:34px; line-height:36px;}
+		h2.styleFontface { font-size:30px; line-height:32px;}
+		h3.styleFontface { font-size:30px; line-height:32px;}
+		html {
+		-webkit-text-size-adjust: none;
+	}
+}

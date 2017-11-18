@@ -1,0 +1,7 @@
+{
+  "order" : [
+      {"field" : "name" , "function" : "isNameExist" },
+      {"field" : "phone", "function" : "isPhoneExist"},
+      {"field" : "address", "function" : "isAddressExist"}
+    ]
+}

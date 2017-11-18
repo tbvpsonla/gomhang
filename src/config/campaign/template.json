@@ -1,0 +1,131 @@
+// CALL AGENT
+// Without time config
+
+{
+  "event":{
+      "group": "Admin",
+      "time": "",
+      "success": "SUCCESSFULLY CONNECT! \nAgent will talk to you in moment!",
+      "fail": "Sorry no one is available now",
+      "user": [
+        {
+          "type": "button",
+          "title": "Please write your question and wait for a moment!! Thank you!",
+          "children": [
+            {
+                "title": "Cancel Support",
+                "value": "cancel support"
+            }
+          ]
+        }
+      ],
+      "admin":[
+        {
+          "type": "quickReply",
+          "title": "Hello, 💁! [userName] needs to talk to Agent. Can you talk to him/her now?",
+          "children": [
+            {
+                "title": "Accept",
+                "value": "[userId] admin_accept [adminId]"
+            }
+          ]
+        }
+      ]
+    }
+}
+
+
+// With time config
+
+{
+  "event":{
+      "group": "Admin",
+      "time": "10 * * * * *",
+      "success": "SUCCESSFULLY CONNECT! \nAgent will talk to you in moment!",
+      "fail": "Sorry no one is available now",
+      "admin":[
+        {
+          "type": "quickReply",
+          "title": "Hello, 💁! [userName] needs to talk to Agent. Can you talk to him/her now?",
+          "children": [
+            {
+                "title": "Accept",
+                "value": "[userId] admin_accept [adminId]"
+            }
+          ]
+        }
+      ]
+    }
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+// PUSH NOTIFICATION
+// New products, events, Interesting Post
+{
+  "event":{
+      "group": "",
+      "time": "",
+      "content": {
+        "type": "button",
+        "title": "Hello, 💁! Great news for you! \nApple's just released new Iphone X. With iPhone X, our vision is now a reality",
+        "children": [
+          {
+              "title": "View Details",
+              "value": "https://www.facebook.com/permalink.php?story_fbid=1601716076546299&id=100001237675529&pnref=story"
+          }
+        ]
+      }
+    }
+}
+
+// New Feature
+{
+  "event":{
+      "group": "",
+      "time": "",
+      "content": {
+        "type": "button",
+        "title": "Hello, 💁! From now on, SBot can help you connect to Agent. \nYou can talk to Call Center directly via SBot.\n Try it now?",
+        "children": [
+          {
+              "title": "Call Agent",
+              "value": "call agent"
+          }
+        ]
+      }
+    }
+}
+
+// Promotions
+{
+  "event":{
+      "group": "Facebook",
+      "time": "",
+      "content":[
+        {
+          "type": "text",
+          "title": "Hello, 💁! We just sale off some products"
+        },
+        {
+          "type": "generic",
+          "children": [
+            {
+              "title":"Samsung Galaxy Note 8",
+              "image_url":"https://cdn.tgdd.vn/Products/Images/42/106211/samsung-galaxy-note8-1-400x460.png",
+              "subtitle":"Galaxy Note 8 là niềm hy vọng vực lại dòng Note...",
+              "buttons":[
+                {
+                  "type":"postback",
+                  "title":"Chi tiết",
+                  "payload":"https://www.thegioididong.com/dtdd/samsung-galaxy-note8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+}
+
+
+// Push Notification

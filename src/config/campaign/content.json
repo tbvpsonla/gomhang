@@ -1,0 +1,21 @@
+{
+  "event":{
+      "group": "Admin",
+      "time": "0.2",
+      "success": "SUCCESSFULLY CONNECT! \nAgent will talk to you in moment!",
+      "fail": "Sorry! All agents are busy now. \nPlease leave your question by typing *ask question*",
+      "admin":[
+        {
+          "type": "button",
+          "title": "☎ *[userName]* needs support from agent. \nCan you help now?",
+          "children": [
+            {
+                "title": "Accept",
+                "value": "INBOX_URL",
+                "type": "web_url"
+            }
+          ]
+        }
+      ]
+    }
+}

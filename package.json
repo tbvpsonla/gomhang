@@ -1,0 +1,49 @@
+{
+  "name": "gomhang",
+  "version": "1.1.0",
+  "description": "GomHang Facebook Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "author": "Duc Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^3.0.3",
+    "async": "^2.0.0",
+    "body-parser": "^1.15.2",
+    "cron-job-manager": "^1.0.7",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.3",
+    "fb": "^2.0.0",
+    "fs": "0.0.1-security",
+    "google-libphonenumber": "^3.0.8",
+    "guid": "0.0.12",
+    "html-entities": "^1.2.0",
+    "json-bigint": "^0.2.0",
+    "log4js": "^2.3.4",
+    "moment": "^2.19.2",
+    "mongoose": "^4.12.0",
+    "mustache": "^2.2.1",
+    "node-excel-export": "^1.4.2",
+    "opn": "^5.1.0",
+    "querystring": "^0.2.0",
+    "redis": "^2.8.0",
+    "request": "^2.73.0",
+    "self-reload-json": "^0.3.0",
+    "uuid": "^3.0.1",
+    "validator": "^9.1.1",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {
+    "rewire": "^2.5.2",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  },
+  "keywords": [
+    "gomhang"
+  ]
+}
