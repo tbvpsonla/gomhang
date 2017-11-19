@@ -55,6 +55,10 @@ function loadRequestUserPermission() {
   return fs.readFileSync(global.rootPath + '/public/request_permission.html').toString();
 }
 
+app.get('/test', function(req, res){
+  res.send("Everything is OK");
+});
+
 app.get('/', function(req, res){
 
   var senderId = req.query.senderId;
